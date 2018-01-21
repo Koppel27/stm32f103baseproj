@@ -4,3 +4,4 @@
 	   Git is a distributed version control sysytem.
 	   Git is free software distributed under the GPL.
 	   what a stupid boss!
+2018/01/21:Creating a new branch is quick.
