@@ -6,3 +6,4 @@
 	   what a stupid boss!
 2018/01/21:Creating a new branch is quick.
 2018/01/22:Greating a new branch is quick and simple.
+	   test change merge!
