@@ -1,0 +1,211 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Yangzw_GitCode\STM32F10x_StdPeriph_Lib_V3.5.0\Project\STM32F103VCT6_Borad_Examples\MDK-ARM\Project.uvproj
+Project File Date:  01/24/2018
+
+<h2>Output:</h2>
+Build target 'STM3210C-EVAL'
+linking...
+Program Size: Code=3788 RO-data=6416 RW-data=36 ZI-data=1228  
+".\STM3210C-EVAL\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\Yangzw_GitCode\\STM32F10x_StdPeriph_Lib_V3.5.0\\Project\\STM32F103VCT6_Borad_Examples\\MDK-ARM\\STM3210C-EVAL\\STM3210C-EVAL.axf" 
+Set JLink Project File to "D:\Yangzw_GitCode\STM32F10x_StdPeriph_Lib_V3.5.0\Project\STM32F103VCT6_Borad_Examples\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VC" selected (256 KB flash, 48 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+t end of non-void function "_sys_exit"
+  } 
+..\..\..\Libraries\BSP_Driver\src\usart.c: 1 warning, 0 errors
+compiling gps.c...
+compiling md2503s.c...
+..\APP\md2503s.c(118): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(50);
+..\APP\md2503s.c(173): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(800);
+..\APP\md2503s.c(198): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(800);
+..\APP\md2503s.c(236): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(1000);
+..\APP\md2503s.c(342): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(30); 
+..\APP\md2503s.c: 5 warnings, 0 errors
+linking...
+.\STM3210C-EVAL\STM3210C-EVAL.axf: Error: L6218E: Undefined symbol UART_DMA_Enable (referred from gps.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\STM3210C-EVAL\STM3210C-EVAL.axf" - 1 Error(s), 7 Warning(s).
+Target not created
+ries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c: 0 warnings, 1 error
+compiling stm32f10x_spi.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c: 0 warnings, 1 error
+compiling stm32f10x_fsmc.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c: 0 warnings, 1 error
+compiling stm32f10x_usart.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c: 0 warnings, 1 error
+compiling stm32f10x_sdio.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c: 0 warnings, 1 error
+compiling stm32f10x_dma.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c: 0 warnings, 1 error
+compiling stm32f10x_i2c.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c: 0 warnings, 1 error
+compiling stm32f10x_adc.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c: 0 warnings, 1 error
+compiling stm32f10x_bkp.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c: 0 warnings, 1 error
+compiling stm32f10x_can.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c: 0 warnings, 1 error
+compiling stm32f10x_cec.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c: 0 warnings, 1 error
+compiling stm32f10x_crc.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c: 0 warnings, 1 error
+compiling stm32f10x_dac.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c: 0 warnings, 1 error
+compiling stm32f10x_dbgmcu.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c: 0 warnings, 1 error
+compiling stm32f10x_flash.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c: 0 warnings, 1 error
+compiling stm32f10x_iwdg.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c: 0 warnings, 1 error
+compiling stm32f10x_pwr.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c: 0 warnings, 1 error
+compiling stm32f10x_rtc.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c: 0 warnings, 1 error
+compiling stm32f10x_tim.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c: 0 warnings, 1 error
+compiling stm32f10x_wwdg.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c: 0 warnings, 1 error
+compiling system_stm32f10x.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\system_stm32f10x.c: 0 warnings, 1 error
+compiling dma.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\dma.c: 0 warnings, 1 error
+compiling exti.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\exti.c: 0 warnings, 1 error
+compiling flash.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\flash.c: 0 warnings, 1 error
+compiling iwdg.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\iwdg.c: 0 warnings, 1 error
+compiling key.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\key.c: 0 warnings, 1 error
+compiling lcd.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\lcd.c: 0 warnings, 1 error
+compiling led.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\led.c: 0 warnings, 1 error
+compiling spi.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\spi.c: 0 warnings, 1 error
+compiling timer.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\timer.c: 0 warnings, 1 error
+compiling usart2.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\usart2.c: 0 warnings, 1 error
+compiling delay.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\delay.c: 0 warnings, 1 error
+compiling usart.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\..\..\Libraries\BSP_Driver\src\usart.c: 0 warnings, 1 error
+compiling gps.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\APP\gps.c: 0 warnings, 1 error
+compiling md2503s.c...
+..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+   #error "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+..\APP\md2503s.c: 0 warnings, 1 error
+".\STM3210C-EVAL\STM3210C-EVAL.axf" - 40 Error(s), 0 Warning(s).
+Target not created
+s).
+Target not created

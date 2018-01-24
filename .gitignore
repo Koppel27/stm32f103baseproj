@@ -1,0 +1,9 @@
+JLinkLog.txt
+Project.uvguix.*
+*.uvopt*
+*.scvd
+*Build/
+*DebugConfig/
+*RTE/
+*.TMP
+*.bak
